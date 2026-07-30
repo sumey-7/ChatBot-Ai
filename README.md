@@ -6,8 +6,9 @@ This repository hosts the backend and interface logic for a web-based Arabic voi
 
 ## 💻 Tech Stack
 
+
 * **PHP 8.1+ & cURL** — Manages secure server-side proxy operations.
-* **Google Gemini API** — Drives the core AI model (`gemini-3.6-flash`).
+* **Google Gemini API** — Drives the core AI model for response generation (used as the LLM engine).
 * **Vanilla JavaScript** — Utilizes native browser Web Speech APIs for handling speech-to-text and text-to-speech.
 * **HTML5 & CSS3** — Builds a clean, responsive dark-themed user interface.
 * **InfinityFree** — Deployed on lightweight PHP-compatible web hosting.
