@@ -1,43 +1,34 @@
-# 🤖 Gemini Voice AI Backend
+# 🎙️ Arabic Voice AI ChatBot (Gemini API)
 
-Gemini Voice AI Backend is the core intelligence system for the web-based voice assistant project. It processes server-side communications, validates requests, securely interfaces with the Google Gemini API, and prepares responses for the browser interface.
-
-The system handles Arabic voice data processing, ensures secure API key management via server proxies, and maintains stable execution on PHP-based hosting environments.
+This repository hosts the backend and interface logic for a web-based Arabic voice assistant. It handles server-side request processing, communicates securely with the Google Gemini AI engine, and powers the browser interface.
 
 ---
 
-## ✨ Features
+## 💻 Tech Stack
 
-- 🔒 Secure Server-Side API Proxy (`process.php` & `config.php`)
-- 🤖 AI Response Generation using Google Gemini (`gemini-3.6-flash`)
-- 🌐 Browser-Based Web Speech Integration
-- 🛡️ Built-in Error Handling & Detailed Exception Reporting
-- ⚡ Lightweight, Framework-Free Architecture
-
----
-
-## 🛠️ Technologies Used
-
-- PHP 8.1+ (cURL)
-- Google Gemini API
-- Vanilla JavaScript (Web Speech API)
-- HTML5 & CSS3
-- InfinityFree Web Hosting
+* **PHP 8.1+ & cURL** — Manages secure server-side proxy operations.
+* **Google Gemini API** — Drives the core AI model (`gemini-3.6-flash`).
+* **Vanilla JavaScript** — Utilizes native browser Web Speech APIs for handling speech-to-text and text-to-speech.
+* **HTML5 & CSS3** — Builds a clean, responsive dark-themed user interface.
+* **InfinityFree** — Deployed on lightweight PHP-compatible web hosting.
 
 ---
 
-## ⚙️ Core Files Structure
+## 🖼️ Interface Preview
 
-- **`index.html`** — Main user interface layout and controls.
-- **`app.js`** — Client-side logic managing speech recognition and audio synthesis.
-- **`style.css`** — Modern dark-themed styling and animations.
-- **`process.php`** — Secure backend handler communicating with Gemini.
-- **`config.php`** — Isolated configuration file storing the private API key.
+![Voice Chatbot Interface](ChatBot.png)
 
 ---
 
-## 📌 Notes
+## 🌍 Live Website
 
-- Keeps the Gemini API key hidden securely on the server, preventing browser exposure.
-- Fully compatible with free PHP hosting providers without requiring Node.js.
-- Designed to work seamlessly with Google Chrome and Microsoft Edge.
+[Try the Voice Chatbot Live](https://sumey.free.je/pro/)
+
+---
+
+## ⭐ Key Capabilities
+
+* **Secure Proxy Layer:** Keeps the Gemini API key hidden on the server, avoiding browser exposure.
+* **Native Speech Integration:** Directly leverages browser audio tools without heavy external frameworks.
+* **Robust Diagnostics:** Includes built-in error handling and detailed exception reporting for easy troubleshooting.
+* **Zero Node.js Dependency:** Designed to run smoothly on standard, free PHP hosting environments.
